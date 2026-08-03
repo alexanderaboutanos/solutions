@@ -220,6 +220,24 @@
     "runtimeMs": null
   },
   {
+    "id": 70,
+    "slug": "climbing-stairs",
+    "title": "Climbing Stairs",
+    "difficulty": "Easy",
+    "tags": [
+      "math",
+      "dynamic-programming",
+      "memoization"
+    ],
+    "languages": [
+      "python"
+    ],
+    "dir": "problems/0070-climbing-stairs",
+    "url": "https://leetcode.com/problems/climbing-stairs/",
+    "completedAt": "2026-08-03T16:44:48-04:00",
+    "runtimeMs": null
+  },
+  {
     "id": 102,
     "slug": "binary-tree-level-order-traversal",
     "title": "Binary Tree Level Order Traversal",

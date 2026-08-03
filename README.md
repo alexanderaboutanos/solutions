@@ -2,7 +2,7 @@
 
 A collection of LeetCode problems I have completed, with notes and complexity analysis.
 
-**30 solved** &nbsp;·&nbsp; 🟢 Easy: 23 &nbsp;·&nbsp; 🟡 Medium: 7 &nbsp;·&nbsp; 🔴 Hard: 0
+**31 solved** &nbsp;·&nbsp; 🟢 Easy: 24 &nbsp;·&nbsp; 🟡 Medium: 7 &nbsp;·&nbsp; 🔴 Hard: 0
 
 | # | Problem | Difficulty | Tags | Languages |
 |--:|---------|------------|------|-----------|
@@ -19,6 +19,7 @@ A collection of LeetCode problems I have completed, with notes and complexity an
 | 53 | [Maximum Subarray](problems/0053-maximum-subarray) | Easy | `array`, `divide-and-conquer`, `dynamic-programming` | Python |
 | 57 | [Insert Interval](problems/0057-insert-interval) | Medium | `array` | Python |
 | 66 | [Plus One](problems/0066-plus-one) | Easy | `array`, `math` | Python |
+| 70 | [Climbing Stairs](problems/0070-climbing-stairs) | Easy | `math`, `dynamic-programming`, `memoization` | Python |
 | 102 | [Binary Tree Level Order Traversal](problems/0102-binary-tree-level-order-traversal) | Medium | `binary-tree`, `breadth-first-search`, `tree` | Python |
 | 110 | [Balanced Binary Tree](problems/0110-balanced-binary-tree) | Easy | `binary-tree`, `depth-first-search`, `tree` | Python |
 | 121 | [Best Time to Buy and Sell Stock](problems/0121-best-time-to-buy-and-sell-stock) | Easy | `array`, `dynamic-programming` | Python |
