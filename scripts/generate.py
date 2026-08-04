@@ -58,13 +58,14 @@ def render(records):
                  f"🟡 Medium: {counts['Medium']} &nbsp;·&nbsp; "
                  f"🔴 Hard: {counts['Hard']}")
     lines.append("")
-    lines.append("| # | Problem | Difficulty | Tags |")
-    lines.append("|--:|---------|------------|------|")
+    lines.append("| # | Problem | Difficulty | Tags | Completed |")
+    lines.append("|--:|---------|------------|------|-----------|")
     for r in records:
         tags = ", ".join(f"`{t}`" for t in r["tags"]) if r["tags"] else "—"
+        completed = (r.get("completedAt") or "")[:10] or "—"
         lines.append(
             f"| {r['id']} | [{r['title']}]({r['dir']}) "
-            f"| {r['difficulty']} | {tags} |")
+            f"| {r['difficulty']} | {tags} | {completed} |")
     lines.append("")
     lines.append("---")
     lines.append("")
