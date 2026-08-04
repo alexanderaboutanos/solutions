@@ -16,10 +16,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 META = os.path.join(ROOT, "metadata.json")
 README = os.path.join(ROOT, "README.md")
 
-REQUIRED = ("id", "slug", "title", "difficulty", "tags", "languages", "dir", "url")
+REQUIRED = ("id", "slug", "title", "difficulty", "tags", "dir", "url")
 DIFFICULTIES = {"Easy", "Medium", "Hard"}
-LANG_LABEL = {"python": "Python", "javascript": "JavaScript", "java": "Java",
-              "cpp": "C++", "c": "C", "go": "Go", "typescript": "TypeScript"}
 
 
 def validate(records):
@@ -53,21 +51,20 @@ def render(records):
     lines.append("# LeetCode Solutions")
     lines.append("")
     lines.append("A collection of LeetCode problems I have completed, with notes "
-                 "and complexity analysis.")
+                 "and complexity analysis. All solutions are written in Python.")
     lines.append("")
     lines.append(f"**{len(records)} solved** &nbsp;·&nbsp; "
                  f"🟢 Easy: {counts['Easy']} &nbsp;·&nbsp; "
                  f"🟡 Medium: {counts['Medium']} &nbsp;·&nbsp; "
                  f"🔴 Hard: {counts['Hard']}")
     lines.append("")
-    lines.append("| # | Problem | Difficulty | Tags | Languages |")
-    lines.append("|--:|---------|------------|------|-----------|")
+    lines.append("| # | Problem | Difficulty | Tags |")
+    lines.append("|--:|---------|------------|------|")
     for r in records:
         tags = ", ".join(f"`{t}`" for t in r["tags"]) if r["tags"] else "—"
-        langs = ", ".join(LANG_LABEL.get(l, l) for l in r["languages"])
         lines.append(
             f"| {r['id']} | [{r['title']}]({r['dir']}) "
-            f"| {r['difficulty']} | {tags} | {langs} |")
+            f"| {r['difficulty']} | {tags} |")
     lines.append("")
     lines.append("---")
     lines.append("")

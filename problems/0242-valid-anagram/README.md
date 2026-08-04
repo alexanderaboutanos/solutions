@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `hash-table`, `sorting`, `string`  
-**Languages:** Python  
 **LeetCode:** [valid-anagram](https://leetcode.com/problems/valid-anagram/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

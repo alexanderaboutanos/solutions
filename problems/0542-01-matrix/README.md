@@ -2,12 +2,11 @@
 
 **Difficulty:** Medium  
 **Tags:** `array`, `breadth-first-search`, `dynamic-programming`, `matrix`  
-**Languages:** Python  
 **LeetCode:** [01-matrix](https://leetcode.com/problems/01-matrix/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

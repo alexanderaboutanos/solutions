@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `array`, `divide-and-conquer`, `dynamic-programming`  
-**Languages:** Python  
 **LeetCode:** [maximum-subarray](https://leetcode.com/problems/maximum-subarray/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

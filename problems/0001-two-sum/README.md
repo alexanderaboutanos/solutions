@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `array`, `hash-table`  
-**Languages:** Python  
 **LeetCode:** [two-sum](https://leetcode.com/problems/two-sum/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

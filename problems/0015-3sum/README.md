@@ -2,12 +2,11 @@
 
 **Difficulty:** Medium  
 **Tags:** `array`, `sorting`, `two-pointers`  
-**Languages:** Python  
 **LeetCode:** [3sum](https://leetcode.com/problems/3sum/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `binary-tree`, `depth-first-search`, `tree`  
-**Languages:** Python  
 **LeetCode:** [balanced-binary-tree](https://leetcode.com/problems/balanced-binary-tree/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

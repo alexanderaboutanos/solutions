@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `linked-list`, `recursion`  
-**Languages:** Python  
 **LeetCode:** [merge-two-sorted-lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

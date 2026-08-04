@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `array`, `two-pointers`  
-**Languages:** Python  
 **LeetCode:** [remove-duplicates-from-sorted-array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

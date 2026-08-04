@@ -2,12 +2,11 @@
 
 **Difficulty:** Medium  
 **Tags:** `array`, `divide-and-conquer`, `geometry`, `heap-priority-queue`, `math`, `quickselect`, `sorting`  
-**Languages:** Python  
 **LeetCode:** [k-closest-points-to-origin](https://leetcode.com/problems/k-closest-points-to-origin/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

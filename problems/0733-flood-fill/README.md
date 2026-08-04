@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `array`, `breadth-first-search`, `depth-first-search`, `matrix`  
-**Languages:** Python  
 **LeetCode:** [flood-fill](https://leetcode.com/problems/flood-fill/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

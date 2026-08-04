@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `array`, `math`  
-**Languages:** Python  
 **LeetCode:** [plus-one](https://leetcode.com/problems/plus-one/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

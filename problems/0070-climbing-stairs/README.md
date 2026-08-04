@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `math`, `dynamic-programming`, `memoization`  
-**Languages:** Python  
 **LeetCode:** [climbing-stairs](https://leetcode.com/problems/climbing-stairs/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

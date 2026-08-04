@@ -8,9 +8,6 @@
       "array",
       "hash-table"
     ],
-    "languages": [
-      "python"
-    ],
     "dir": "problems/0001-two-sum",
     "url": "https://leetcode.com/problems/two-sum/",
     "completedAt": "2022-04-30T17:22:46-04:00",
@@ -23,9 +20,6 @@
     "difficulty": "Easy",
     "tags": [
       "math"
-    ],
-    "languages": [
-      "python"
     ],
     "dir": "problems/0009-palindrome-number",
     "url": "https://leetcode.com/problems/palindrome-number/",
@@ -42,9 +36,6 @@
       "math",
       "string"
     ],
-    "languages": [
-      "python"
-    ],
     "dir": "problems/0013-roman-to-integer",
     "url": "https://leetcode.com/problems/roman-to-integer/",
     "completedAt": "2022-04-30T20:38:34-04:00",
@@ -59,9 +50,6 @@
       "array",
       "string",
       "trie"
-    ],
-    "languages": [
-      "python"
     ],
     "dir": "problems/0014-longest-common-prefix",
     "url": "https://leetcode.com/problems/longest-common-prefix/",
@@ -78,9 +66,6 @@
       "sorting",
       "two-pointers"
     ],
-    "languages": [
-      "python"
-    ],
     "dir": "problems/0015-3sum",
     "url": "https://leetcode.com/problems/3sum/",
     "completedAt": "2022-05-04T14:55:30-04:00",
@@ -94,9 +79,6 @@
     "tags": [
       "stack",
       "string"
-    ],
-    "languages": [
-      "python"
     ],
     "dir": "problems/0020-valid-parentheses",
     "url": "https://leetcode.com/problems/valid-parentheses/",
@@ -112,9 +94,6 @@
       "linked-list",
       "recursion"
     ],
-    "languages": [
-      "python"
-    ],
     "dir": "problems/0021-merge-two-sorted-lists",
     "url": "https://leetcode.com/problems/merge-two-sorted-lists/",
     "completedAt": "2022-04-30T21:58:34-04:00",
@@ -128,9 +107,6 @@
     "tags": [
       "array",
       "two-pointers"
-    ],
-    "languages": [
-      "python"
     ],
     "dir": "problems/0026-remove-duplicates-from-sorted-array",
     "url": "https://leetcode.com/problems/remove-duplicates-from-sorted-array/",
@@ -146,9 +122,6 @@
       "array",
       "two-pointers"
     ],
-    "languages": [
-      "python"
-    ],
     "dir": "problems/0027-remove-element",
     "url": "https://leetcode.com/problems/remove-element/",
     "completedAt": "2022-05-02T09:05:43-04:00",
@@ -160,9 +133,6 @@
     "title": "Implement strStr()",
     "difficulty": "Easy",
     "tags": [],
-    "languages": [
-      "python"
-    ],
     "dir": "problems/0028-implement-strstr",
     "url": "https://leetcode.com/problems/implement-strstr/",
     "completedAt": "2022-05-02T10:06:13-04:00",
@@ -178,9 +148,6 @@
       "divide-and-conquer",
       "dynamic-programming"
     ],
-    "languages": [
-      "python"
-    ],
     "dir": "problems/0053-maximum-subarray",
     "url": "https://leetcode.com/problems/maximum-subarray/",
     "completedAt": "2022-05-02T10:39:07-04:00",
@@ -193,9 +160,6 @@
     "difficulty": "Medium",
     "tags": [
       "array"
-    ],
-    "languages": [
-      "python"
     ],
     "dir": "problems/0057-insert-interval",
     "url": "https://leetcode.com/problems/insert-interval/",
@@ -210,9 +174,6 @@
     "tags": [
       "array",
       "math"
-    ],
-    "languages": [
-      "python"
     ],
     "dir": "problems/0066-plus-one",
     "url": "https://leetcode.com/problems/plus-one/",
@@ -229,9 +190,6 @@
       "dynamic-programming",
       "memoization"
     ],
-    "languages": [
-      "python"
-    ],
     "dir": "problems/0070-climbing-stairs",
     "url": "https://leetcode.com/problems/climbing-stairs/",
     "completedAt": "2026-08-03T16:44:48-04:00",
@@ -246,9 +204,6 @@
       "binary-tree",
       "breadth-first-search",
       "tree"
-    ],
-    "languages": [
-      "python"
     ],
     "dir": "problems/0102-binary-tree-level-order-traversal",
     "url": "https://leetcode.com/problems/binary-tree-level-order-traversal/",
@@ -265,9 +220,6 @@
       "depth-first-search",
       "tree"
     ],
-    "languages": [
-      "python"
-    ],
     "dir": "problems/0110-balanced-binary-tree",
     "url": "https://leetcode.com/problems/balanced-binary-tree/",
     "completedAt": "2022-04-30T20:19:27-04:00",
@@ -282,9 +234,6 @@
       "array",
       "dynamic-programming"
     ],
-    "languages": [
-      "python"
-    ],
     "dir": "problems/0121-best-time-to-buy-and-sell-stock",
     "url": "https://leetcode.com/problems/best-time-to-buy-and-sell-stock/",
     "completedAt": "2022-05-02T12:15:31-04:00",
@@ -298,9 +247,6 @@
     "tags": [
       "string",
       "two-pointers"
-    ],
-    "languages": [
-      "python"
     ],
     "dir": "problems/0125-valid-palindrome",
     "url": "https://leetcode.com/problems/valid-palindrome/",
@@ -318,9 +264,6 @@
       "graph",
       "hash-table"
     ],
-    "languages": [
-      "python"
-    ],
     "dir": "problems/0133-clone-graph",
     "url": "https://leetcode.com/problems/clone-graph/",
     "completedAt": "2022-05-20T08:33:37-04:00",
@@ -336,9 +279,6 @@
       "linked-list",
       "two-pointers"
     ],
-    "languages": [
-      "python"
-    ],
     "dir": "problems/0141-linked-list-cycle",
     "url": "https://leetcode.com/problems/linked-list-cycle/",
     "completedAt": "2022-05-02T20:46:46-04:00",
@@ -353,9 +293,6 @@
       "array",
       "binary-search",
       "two-pointers"
-    ],
-    "languages": [
-      "python"
     ],
     "dir": "problems/0167-two-sum-ii-input-array-is-sorted",
     "url": "https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/",
@@ -373,9 +310,6 @@
       "depth-first-search",
       "tree"
     ],
-    "languages": [
-      "python"
-    ],
     "dir": "problems/0226-invert-binary-tree",
     "url": "https://leetcode.com/problems/invert-binary-tree/",
     "completedAt": "2022-05-02T14:05:12-04:00",
@@ -390,9 +324,6 @@
       "design",
       "queue",
       "stack"
-    ],
-    "languages": [
-      "python"
     ],
     "dir": "problems/0232-implement-queue-using-stacks",
     "url": "https://leetcode.com/problems/implement-queue-using-stacks/",
@@ -410,9 +341,6 @@
       "depth-first-search",
       "tree"
     ],
-    "languages": [
-      "python"
-    ],
     "dir": "problems/0235-lowest-common-ancestor-of-a-binary-search-tree",
     "url": "https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/",
     "completedAt": "2022-05-02T14:48:52-04:00",
@@ -428,9 +356,6 @@
       "sorting",
       "string"
     ],
-    "languages": [
-      "python"
-    ],
     "dir": "problems/0242-valid-anagram",
     "url": "https://leetcode.com/problems/valid-anagram/",
     "completedAt": "2022-05-02T15:42:40-04:00",
@@ -444,9 +369,6 @@
     "tags": [
       "binary-search",
       "interactive"
-    ],
-    "languages": [
-      "python"
     ],
     "dir": "problems/0278-first-bad-version",
     "url": "https://leetcode.com/problems/first-bad-version/",
@@ -462,9 +384,6 @@
       "counting",
       "hash-table",
       "string"
-    ],
-    "languages": [
-      "python"
     ],
     "dir": "problems/0383-ransom-note",
     "url": "https://leetcode.com/problems/ransom-note/",
@@ -482,9 +401,6 @@
       "dynamic-programming",
       "matrix"
     ],
-    "languages": [
-      "python"
-    ],
     "dir": "problems/0542-01-matrix",
     "url": "https://leetcode.com/problems/01-matrix/",
     "completedAt": "2022-05-19T21:16:04-04:00",
@@ -498,9 +414,6 @@
     "tags": [
       "array",
       "binary-search"
-    ],
-    "languages": [
-      "python"
     ],
     "dir": "problems/0704-binary-search",
     "url": "https://leetcode.com/problems/binary-search/",
@@ -517,9 +430,6 @@
       "breadth-first-search",
       "depth-first-search",
       "matrix"
-    ],
-    "languages": [
-      "python"
     ],
     "dir": "problems/0733-flood-fill",
     "url": "https://leetcode.com/problems/flood-fill/",
@@ -539,9 +449,6 @@
       "math",
       "quickselect",
       "sorting"
-    ],
-    "languages": [
-      "python"
     ],
     "dir": "problems/0973-k-closest-points-to-origin",
     "url": "https://leetcode.com/problems/k-closest-points-to-origin/",

@@ -2,12 +2,11 @@
 
 **Difficulty:** Medium  
 **Tags:** `binary-tree`, `breadth-first-search`, `tree`  
-**Languages:** Python  
 **LeetCode:** [binary-tree-level-order-traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

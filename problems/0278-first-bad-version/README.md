@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `binary-search`, `interactive`  
-**Languages:** Python  
 **LeetCode:** [first-bad-version](https://leetcode.com/problems/first-bad-version/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

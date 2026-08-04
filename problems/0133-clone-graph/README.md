@@ -2,12 +2,11 @@
 
 **Difficulty:** Medium  
 **Tags:** `breadth-first-search`, `depth-first-search`, `graph`, `hash-table`  
-**Languages:** Python  
 **LeetCode:** [clone-graph](https://leetcode.com/problems/clone-graph/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

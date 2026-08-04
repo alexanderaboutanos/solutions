@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `array`, `binary-search`  
-**Languages:** Python  
 **LeetCode:** [binary-search](https://leetcode.com/problems/binary-search/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

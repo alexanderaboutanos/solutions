@@ -2,12 +2,11 @@
 
 **Difficulty:** Medium  
 **Tags:** `array`, `binary-search`, `two-pointers`  
-**Languages:** Python  
 **LeetCode:** [two-sum-ii-input-array-is-sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

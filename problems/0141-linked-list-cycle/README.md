@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `hash-table`, `linked-list`, `two-pointers`  
-**Languages:** Python  
 **LeetCode:** [linked-list-cycle](https://leetcode.com/problems/linked-list-cycle/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

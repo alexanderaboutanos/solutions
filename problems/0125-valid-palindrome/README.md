@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `string`, `two-pointers`  
-**Languages:** Python  
 **LeetCode:** [valid-palindrome](https://leetcode.com/problems/valid-palindrome/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

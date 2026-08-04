@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `math`  
-**Languages:** Python  
 **LeetCode:** [palindrome-number](https://leetcode.com/problems/palindrome-number/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

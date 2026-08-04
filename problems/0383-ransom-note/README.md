@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `counting`, `hash-table`, `string`  
-**Languages:** Python  
 **LeetCode:** [ransom-note](https://leetcode.com/problems/ransom-note/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

@@ -2,12 +2,11 @@
 
 **Difficulty:** Medium  
 **Tags:** `array`  
-**Languages:** Python  
 **LeetCode:** [insert-interval](https://leetcode.com/problems/insert-interval/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

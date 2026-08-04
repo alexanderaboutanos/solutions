@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `binary-tree`, `breadth-first-search`, `depth-first-search`, `tree`  
-**Languages:** Python  
 **LeetCode:** [invert-binary-tree](https://leetcode.com/problems/invert-binary-tree/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

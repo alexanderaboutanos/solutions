@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `hash-table`, `math`, `string`  
-**Languages:** Python  
 **LeetCode:** [roman-to-integer](https://leetcode.com/problems/roman-to-integer/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

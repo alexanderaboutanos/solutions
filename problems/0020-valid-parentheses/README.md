@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `stack`, `string`  
-**Languages:** Python  
 **LeetCode:** [valid-parentheses](https://leetcode.com/problems/valid-parentheses/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

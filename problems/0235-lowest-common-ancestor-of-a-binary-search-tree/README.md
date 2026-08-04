@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `binary-search-tree`, `binary-tree`, `depth-first-search`, `tree`  
-**Languages:** Python  
 **LeetCode:** [lowest-common-ancestor-of-a-binary-search-tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

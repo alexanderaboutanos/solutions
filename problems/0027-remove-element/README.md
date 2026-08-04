@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `array`, `two-pointers`  
-**Languages:** Python  
 **LeetCode:** [remove-element](https://leetcode.com/problems/remove-element/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

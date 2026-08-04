@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** _n/a_  
-**Languages:** Python  
 **LeetCode:** [implement-strstr](https://leetcode.com/problems/implement-strstr/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

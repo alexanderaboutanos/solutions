@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `design`, `queue`, `stack`  
-**Languages:** Python  
 **LeetCode:** [implement-queue-using-stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 

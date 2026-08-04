@@ -2,12 +2,11 @@
 
 **Difficulty:** Easy  
 **Tags:** `array`, `string`, `trie`  
-**Languages:** Python  
 **LeetCode:** [longest-common-prefix](https://leetcode.com/problems/longest-common-prefix/)
 
-## Solutions
+## Solution
 
-- [Python](./solution.py)
+[solution.py](./solution.py)
 
 ## Approach
 
