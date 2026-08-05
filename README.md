@@ -16,7 +16,7 @@ A collection of LeetCode problems I have completed, with notes and complexity an
 | 26 | [Remove Duplicates from Sorted Array](problems/0026-remove-duplicates-from-sorted-array) | Easy | `array`, `two-pointers` | — |
 | 27 | [Remove Element](problems/0027-remove-element) | Easy | `array`, `two-pointers` | — |
 | 28 | [Implement strStr()](problems/0028-implement-strstr) | Easy | — | — |
-| 53 | [Maximum Subarray](problems/0053-maximum-subarray) | Easy | `array`, `divide-and-conquer`, `dynamic-programming` | — |
+| 53 | [Maximum Subarray](problems/0053-maximum-subarray) | Easy | `array`, `divide-and-conquer`, `dynamic-programming` | 2026-08-05 |
 | 57 | [Insert Interval](problems/0057-insert-interval) | Medium | `array` | — |
 | 66 | [Plus One](problems/0066-plus-one) | Easy | `array`, `math` | — |
 | 70 | [Climbing Stairs](problems/0070-climbing-stairs) | Easy | `math`, `dynamic-programming`, `memoization` | 2026-08-03 |

@@ -49,32 +49,38 @@
 #
 #
 
+from typing import List
+
+
 # @lc code=start
-from cmath import inf
-
-
 class Solution:
-    def maxSubArray(self, nums):
-
-        # maximum variable set to first num in arr.
-        max_sub = nums[0]
-
-        # varaible for current total
-        cur_sum = 0
+    def maxSubArray(self, nums: List[int]) -> int:
+        maxSum = nums[0]
+        curSum = 0
 
         for n in nums:
-            # if the current sub array total dips below 0, reset it to 0 (drop the previous arr)
-            if cur_sum < 0:
-                cur_sum = 0
-            cur_sum += n
-            max_sub = max(max_sub, cur_sum)
-        return max_sub
+            if curSum < 0:
+                curSum = 0 # remove any negative prefix
+            curSum += n # ensure we are always computing max
+            maxSum = max(maxSum, curSum)
 
-    def maxSubArray2(self, nums):
-        current_sub = max_sub = nums[0]
-        for idx in range(1, len(nums)):
-            current_sub = max(nums[idx], current_sub + nums[idx])
-            max_sub = max(max_sub, current_sub)
-        return max_sub
+        return maxSum
 
 # @lc code=end
+
+
+if __name__ == "__main__":
+    cases = [
+        ([-2, 1, -3, 4, -1, 2, 1, -5, 4], 6),  # example 1 — the hand-traced array
+        ([1], 1),                              # example 2
+        ([5, 4, -1, 7, 8], 23),                # example 3
+        ([-1], -1),                            # single negative
+        ([-3, -2, -5], -2),                    # all negative — catches maxSum starting at 0
+        ([1] * 100_000, 100_000),              # max constraint — catches O(n^2) solutions
+    ]
+    solution = Solution()
+    for nums, expected in cases:
+        got = solution.maxSubArray(nums)
+        label = str(nums) if len(nums) <= 10 else f"[{nums[0]}, ...] (n={len(nums)})"
+        status = "PASS" if got == expected else "FAIL"
+        print(f"{status}  nums={label:<35} expected={expected:<7} got={got}")
