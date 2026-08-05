@@ -11,6 +11,7 @@ Exits non-zero on any validation error (used by CI).
 import json
 import os
 import sys
+from datetime import datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 META = os.path.join(ROOT, "metadata.json")
@@ -62,7 +63,12 @@ def render(records):
     lines.append("|--:|---------|------------|------|-----------|")
     for r in records:
         tags = ", ".join(f"`{t}`" for t in r["tags"]) if r["tags"] else "—"
-        completed = (r.get("completedAt") or "")[:10] or "—"
+        raw = r.get("completedAt")
+        if raw:
+            dt = datetime.fromisoformat(raw)
+            completed = f"{dt:%b} {dt.day}, {dt:%Y}"
+        else:
+            completed = "—"
         lines.append(
             f"| {r['id']} | [{r['title']}]({r['dir']}) "
             f"| {r['difficulty']} | {tags} | {completed} |")

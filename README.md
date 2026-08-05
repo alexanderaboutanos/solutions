@@ -16,13 +16,13 @@ A collection of LeetCode problems I have completed, with notes and complexity an
 | 26 | [Remove Duplicates from Sorted Array](problems/0026-remove-duplicates-from-sorted-array) | Easy | `array`, `two-pointers` | — |
 | 27 | [Remove Element](problems/0027-remove-element) | Easy | `array`, `two-pointers` | — |
 | 28 | [Implement strStr()](problems/0028-implement-strstr) | Easy | — | — |
-| 53 | [Maximum Subarray](problems/0053-maximum-subarray) | Easy | `array`, `divide-and-conquer`, `dynamic-programming` | 2026-08-05 |
+| 53 | [Maximum Subarray](problems/0053-maximum-subarray) | Easy | `array`, `divide-and-conquer`, `dynamic-programming` | Aug 5, 2026 |
 | 57 | [Insert Interval](problems/0057-insert-interval) | Medium | `array` | — |
 | 66 | [Plus One](problems/0066-plus-one) | Easy | `array`, `math` | — |
-| 70 | [Climbing Stairs](problems/0070-climbing-stairs) | Easy | `math`, `dynamic-programming`, `memoization` | 2026-08-03 |
+| 70 | [Climbing Stairs](problems/0070-climbing-stairs) | Easy | `math`, `dynamic-programming`, `memoization` | Aug 3, 2026 |
 | 102 | [Binary Tree Level Order Traversal](problems/0102-binary-tree-level-order-traversal) | Medium | `binary-tree`, `breadth-first-search`, `tree` | — |
 | 110 | [Balanced Binary Tree](problems/0110-balanced-binary-tree) | Easy | `binary-tree`, `depth-first-search`, `tree` | — |
-| 121 | [Best Time to Buy and Sell Stock](problems/0121-best-time-to-buy-and-sell-stock) | Easy | `array`, `dynamic-programming` | 2026-08-04 |
+| 121 | [Best Time to Buy and Sell Stock](problems/0121-best-time-to-buy-and-sell-stock) | Easy | `array`, `dynamic-programming` | Aug 4, 2026 |
 | 125 | [Valid Palindrome](problems/0125-valid-palindrome) | Easy | `string`, `two-pointers` | — |
 | 133 | [Clone Graph](problems/0133-clone-graph) | Medium | `breadth-first-search`, `depth-first-search`, `graph`, `hash-table` | — |
 | 141 | [Linked List Cycle](problems/0141-linked-list-cycle) | Easy | `hash-table`, `linked-list`, `two-pointers` | — |
