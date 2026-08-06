@@ -61,23 +61,20 @@ class Solution:
         # for each number, does the target minus my number equal something the dict?
             # if yes, return my index and the index of the numb in that dict
             # if no, add to the dict and move to the next number
-        for i in range(len(nums)):
-            matchingSum = target - nums[i]
-            if matchingSum in myDict:
-                return [i, myDict[matchingSum]]
-            elif nums[i] in myDict:
-                continue
-            else:
-                myDict[nums[i]] = i
+        for i, n in enumerate(nums):
+            complement = target - n
+            if complement in myDict:
+                return [i, myDict[complement]]
+            myDict[n] = i
 
-            # target = 6
-            # [2,7,11,15,3,4]
+        # target = 6
+        # [2,7,11,15,3,4]
 
-            # 0, {{2,0}}
-            # 1, {{2,0}, {7,1}}
-            # 2, {{2,0}, {7,1}, {11,6}}
-            # 3, .......
-            # 5,
+        # 0, {{2,0}}
+        # 1, {{2,0}, {7,1}}
+        # 2, {{2,0}, {7,1}, {11,2}}
+        # 3, .......
+        # 5,
 
 # @lc code=end
 
