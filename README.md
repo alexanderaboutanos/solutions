@@ -6,7 +6,7 @@ A collection of LeetCode problems I have completed, with notes and complexity an
 
 | # | Problem | Difficulty | Tags | Completed |
 |--:|---------|------------|------|-----------|
-| 1 | [Two Sum](problems/0001-two-sum) | Easy | `array`, `hash-table` | — |
+| 1 | [Two Sum](problems/0001-two-sum) | Easy | `array`, `hash-table` | Aug 6, 2026 |
 | 9 | [Palindrome Number](problems/0009-palindrome-number) | Easy | `math` | — |
 | 13 | [Roman to Integer](problems/0013-roman-to-integer) | Easy | `hash-table`, `math`, `string` | — |
 | 14 | [Longest Common Prefix](problems/0014-longest-common-prefix) | Easy | `array`, `string`, `trie` | — |
