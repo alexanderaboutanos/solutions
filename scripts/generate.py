@@ -49,6 +49,11 @@ def render(records):
         counts[r["difficulty"]] = counts.get(r["difficulty"], 0) + 1
 
     lines = []
+    lines.append("<!-- AUTO-GENERATED FILE — DO NOT EDIT BY HAND.")
+    lines.append("     Hand edits are silently overwritten by .github/workflows/generate.yml")
+    lines.append("     on the next push. Change the wording/layout in scripts/generate.py or")
+    lines.append("     the data in metadata.json, then run: python scripts/generate.py -->")
+    lines.append("")
     lines.append("# Solutions")
     lines.append("")
     lines.append("A list of coding problems I've solved")

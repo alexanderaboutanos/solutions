@@ -1,3 +1,8 @@
+<!-- AUTO-GENERATED FILE — DO NOT EDIT BY HAND.
+     Hand edits are silently overwritten by .github/workflows/generate.yml
+     on the next push. Change the wording/layout in scripts/generate.py or
+     the data in metadata.json, then run: python scripts/generate.py -->
+
 # Solutions
 
 A list of coding problems I've solved
