@@ -67,30 +67,40 @@
 #
 #
 
+from typing import List
+
+
 # @lc code=start
 class Solution:
+    def twoSum(self, numbers: List[int], target: int) -> List[int]:
+        L = 0
+        R = len(numbers) - 1
 
-    # this solution is super fast, but it does not follow the requirements for constance space complexity.
-    # def twoSum(self, numbers, target: int):
-    #     hashmap = {}
-    #     for idx in range(len(numbers)):
-    #         hashmap[numbers[idx]] = idx
-
-    #     for idx in range(len(numbers)):
-    #         comp = target - numbers[idx]
-    #         if comp in hashmap and idx != hashmap[comp]:
-    #             return [min(idx, hashmap[comp])+1, max(idx, hashmap[comp])+1]
-
-    # this solution uses two pointers, slower but helps with space complexity
-    def twoSum(self, numbers, target):
-        left = 0
-        right = len(numbers)-1
-        while left < right:
-            if numbers[left] + numbers[right] == target:
-                return [left+1, right+1]
-            elif numbers[left] + numbers[right] > target:
-                right -= 1
+        while L < R:
+            if numbers[L] + numbers[R] == target:
+                return [L+1, R+1]
+            if numbers[L] + numbers[R] > target:
+                R -= 1
             else:
-                left += 1
+                L += 1
+
+        return []
 
 # @lc code=end
+
+
+if __name__ == "__main__":
+    cases = [
+        ([2, 7, 11, 15], 9, [1, 2]),
+        ([2, 3, 4], 6, [1, 3]),
+        ([-1, 0], -1, [1, 2]),
+        ([1, 2, 3, 4, 4, 9, 56, 90], 8, [4, 5]),
+        ([-10, -3, 0, 5, 9, 21], 5, [3, 4]),
+        ([-5, 2, 3, 5], 5, [2, 3]),
+    ]
+    solution = Solution()
+    for numbers, target, expected in cases:
+        got = solution.twoSum(numbers, target)
+        status = "PASS" if got == expected else "FAIL"
+        print(f"{status}  numbers={str(numbers):<28} target={target:<5} "
+              f"expected={str(expected):<8} got={got}")
