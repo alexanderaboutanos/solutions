@@ -1,8 +1,11 @@
-# LeetCode Solutions
+# Solutions
 
-A collection of LeetCode problems I have completed, with notes and complexity analysis. All solutions are written in Python.
+A list of coding problems I've solved
 
-**31 solved** &nbsp;·&nbsp; 🟢 Easy: 24 &nbsp;·&nbsp; 🟡 Medium: 7 &nbsp;·&nbsp; 🔴 Hard: 0
+Total: **31** &nbsp;·&nbsp;
+🟢 Easy: 24 &nbsp;·&nbsp;
+🟡 Medium: 7 &nbsp;·&nbsp;
+🔴 Hard: 0
 
 | # | Problem | Difficulty | Tags | Completed |
 |--:|---------|------------|------|-----------|
