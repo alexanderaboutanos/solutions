@@ -49,15 +49,14 @@ def render(records):
         counts[r["difficulty"]] = counts.get(r["difficulty"], 0) + 1
 
     lines = []
-    lines.append("# LeetCode Solutions")
+    lines.append("# Solutions")
     lines.append("")
-    lines.append("A collection of LeetCode problems I have completed, with notes "
-                 "and complexity analysis. All solutions are written in Python.")
+    lines.append("A list of coding problems I've solved")
     lines.append("")
-    lines.append(f"**{len(records)} solved** &nbsp;·&nbsp; "
-                 f"🟢 Easy: {counts['Easy']} &nbsp;·&nbsp; "
-                 f"🟡 Medium: {counts['Medium']} &nbsp;·&nbsp; "
-                 f"🔴 Hard: {counts['Hard']}")
+    lines.append(f"Total: **{len(records)}** &nbsp;·&nbsp;")
+    lines.append(f"🟢 Easy: {counts['Easy']} &nbsp;·&nbsp;")
+    lines.append(f"🟡 Medium: {counts['Medium']} &nbsp;·&nbsp;")
+    lines.append(f"🔴 Hard: {counts['Hard']}")
     lines.append("")
     lines.append("| # | Problem | Difficulty | Tags | Completed |")
     lines.append("|--:|---------|------------|------|-----------|")
