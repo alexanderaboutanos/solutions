@@ -18,7 +18,7 @@ Total: **31** &nbsp;·&nbsp;
 | 9 | [Palindrome Number](problems/0009-palindrome-number) | Easy | `math` | — |
 | 13 | [Roman to Integer](problems/0013-roman-to-integer) | Easy | `hash-table`, `math`, `string` | — |
 | 14 | [Longest Common Prefix](problems/0014-longest-common-prefix) | Easy | `array`, `string`, `trie` | — |
-| 15 | [3Sum](problems/0015-3sum) | Medium | `array`, `sorting`, `two-pointers` | — |
+| 15 | [3Sum](problems/0015-3sum) | Medium | `array`, `sorting`, `two-pointers` | Aug 10, 2026 |
 | 20 | [Valid Parentheses](problems/0020-valid-parentheses) | Easy | `stack`, `string` | — |
 | 21 | [Merge Two Sorted Lists](problems/0021-merge-two-sorted-lists) | Easy | `linked-list`, `recursion` | — |
 | 26 | [Remove Duplicates from Sorted Array](problems/0026-remove-duplicates-from-sorted-array) | Easy | `array`, `two-pointers` | — |

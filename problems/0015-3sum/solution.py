@@ -4,8 +4,6 @@
 # [15] 3Sum
 #
 # https://leetcode.com/problems/3sum/description/
-
-# https://www.youtube.com/watch?v=jzZsG8n2R9A
 #
 # algorithms
 # Medium (31.07%)
@@ -42,41 +40,58 @@
 #
 
 
-from collections import Counter
-
 # @lc code=start
-
-
 class Solution:
-    def threeSum(self, nums):
-        res = []
+    def threeSum(self, nums: list[int]) -> list[list[int]]:
+        listOfAnswers = []
         nums.sort()
 
-        for idx, num in enumerate(nums):
-            # we don't want to use the same value twice...
-            if idx > 0 and num == nums[idx-1]:
+        for i, num in enumerate(nums):
+            if i > 0 and num == nums[i - 1]:  # dedup the anchor
                 continue
 
-            left = idx + 1
-            right = len(nums) - 1
+            L = i + 1  # reset L pointer to 1 above 1st of triplet
+            R = len(nums) - 1  # reset R pointer to end
 
-            while left < right:
-                threeSum = num + nums[left] + nums[right]
-                if threeSum > 0:
-                    right -= 1
-                elif threeSum < 0:
-                    left += 1
-                else:
-                    res.append([num, nums[left], nums[right]])
+            while L < R:  # once L pointer reaches end, we're done
+                total = num + nums[L] + nums[R]
 
-                    # how do we update the pointers here?
-                    # NOT EASY
-                    # we can either bring the left up or the right back.
-                    # then (in order to prevent duplicates) we need to make sure that the number at that left index is not equal the number we just added to res. Also, make sure that right doesn't pass the left without us knowing.
-                    left += 1
-                    while nums[left] == nums[left - 1] and left < right:
-                        left += 1
+                if total == 0:
+                    listOfAnswers.append([num, nums[L], nums[R]])
+                    L += 1
+                    R -= 1
+                    while L < R and nums[L] == nums[L - 1]:  # dedup the pair
+                        L += 1
+                elif total > 0:
+                    R -= 1
+                elif total < 0:
+                    L += 1
 
-        return res
+        return listOfAnswers
 
 # @lc code=end
+
+
+if __name__ == "__main__":
+    cases = [
+        ([-1, 0, 1, 2, -1, -4], [[-1, -1, 2], [-1, 0, 1]]),
+        ([], []),
+        ([0], []),
+        ([0, 0, 0], [[0, 0, 0]]),
+        ([0, 0, 0, 0], [[0, 0, 0]]),
+        ([-2, 0, 0, 2, 2], [[-2, 0, 2]]),          # dup pair, same anchor
+        ([-1, -1, 0, 1, 1], [[-1, 0, 1]]),         # dup anchor
+        ([1, 2, 3], []),                           # all positive
+        ([-4, -2, -2, -2, 0, 1, 2, 2, 2, 3, 3, 4, 4, 6, 6],
+         [[-4, -2, 6], [-4, 0, 4], [-4, 1, 3], [-4, 2, 2], [-2, -2, 4],
+          [-2, 0, 2]]),
+    ]
+
+    def canonical(triplets):
+        return sorted(sorted(t) for t in triplets)
+
+    solution = Solution()
+    for nums, expected in cases:
+        got = solution.threeSum(list(nums))
+        status = "PASS" if canonical(got) == canonical(expected) else "FAIL"
+        print(f"{status}  nums={str(nums):<48} got={got}")
