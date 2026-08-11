@@ -39,7 +39,7 @@
 # palindrome.
 #
 # Constraints:
-# -2^31 <= x <= 2^31 - 1
+# -2^31 <= x <= 2^31 - 1
 #
 # Follow up: Could you solve it without converting the integer to a string?
 #
@@ -47,28 +47,63 @@
 
 # @lc code=start
 class Solution:
-    def isPalindrome(self, x):
 
-        # if it's a negative number, just return false
-        if x < 0:
+    # SOLUTION 1
+    def isPalindrome(self, x: int) -> bool:
+        if x < 0:  # negative numbers are never palindromes
+            return False
+        if x < 10:  # positive numbers under 10 are always palindromes
+            return True
+        # now we must be dealing with a number above 10...
+
+        # turn it into a string
+        text = str(x)
+
+        # compare that string to it's reverse
+        if text == text[::-1]:
+            return True
+        else:
             return False
 
-        # convert the integer into a string...
-        string = str(x)
+    # SOLUTION 2
+    # answers the follow up: no string conversion, arithmetic only
+    def isPalindrome2(self, x: int) -> bool:
+        if x < 0:  # no negative numbers
+            return False
 
-        # set two pointers
-        a = 0
-        b = len(string)-1
+        rev = 0  # declare reverse number
+        num = x  # store original number so we can modify it
 
-        # we are going to slowly bring a and b closer
-        while a < b:
-            if string[a] != string[b]:
-                return False
-            else:
-                a += 1
-                b -= 1
+        while num != 0:
+            rev = rev * 10 + num % 10
+            num = num // 10
 
-        return True
-
+        return rev == x
 
 # @lc code=end
+
+
+if __name__ == "__main__":
+    cases = [
+        (121, True),
+        (-121, False),
+        (10, False),
+        (0, True),
+        (7, True),
+        (-7, False),          # negative single digit
+        (11, True),
+        (1221, True),         # even length
+        (12321, True),        # odd length
+        (12345, False),
+        (1000021, False),     # trailing zeros must not be dropped
+        (2147483647, False),  # max constraint
+    ]
+    solution = Solution()
+    methods = [("string", solution.isPalindrome),
+               ("arithmetic", solution.isPalindrome2)]
+    for name, fn in methods:
+        print(f"--- {name} ---")
+        for x, expected in cases:
+            got = fn(x)
+            status = "PASS" if got == expected else "FAIL"
+            print(f"{status}  x={x:<12} expected={str(expected):<6} got={got}")

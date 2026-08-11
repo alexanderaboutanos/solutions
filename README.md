@@ -15,7 +15,7 @@ Total: **31** &nbsp;·&nbsp;
 | # | Problem | Difficulty | Tags | Completed |
 |--:|---------|------------|------|-----------|
 | 1 | [Two Sum](problems/0001-two-sum) | Easy | `array`, `hash-table` | Aug 6, 2026 |
-| 9 | [Palindrome Number](problems/0009-palindrome-number) | Easy | `math` | — |
+| 9 | [Palindrome Number](problems/0009-palindrome-number) | Easy | `math` | Aug 11, 2026 |
 | 13 | [Roman to Integer](problems/0013-roman-to-integer) | Easy | `hash-table`, `math`, `string` | — |
 | 14 | [Longest Common Prefix](problems/0014-longest-common-prefix) | Easy | `array`, `string`, `trie` | — |
 | 15 | [3Sum](problems/0015-3sum) | Medium | `array`, `sorting`, `two-pointers` | Aug 10, 2026 |
