@@ -31,7 +31,7 @@ Total: **31** &nbsp;·&nbsp;
 | 102 | [Binary Tree Level Order Traversal](problems/0102-binary-tree-level-order-traversal) | Medium | `binary-tree`, `breadth-first-search`, `tree` | — |
 | 110 | [Balanced Binary Tree](problems/0110-balanced-binary-tree) | Easy | `binary-tree`, `depth-first-search`, `tree` | — |
 | 121 | [Best Time to Buy and Sell Stock](problems/0121-best-time-to-buy-and-sell-stock) | Easy | `array`, `dynamic-programming` | Aug 4, 2026 |
-| 125 | [Valid Palindrome](problems/0125-valid-palindrome) | Easy | `string`, `two-pointers` | — |
+| 125 | [Valid Palindrome](problems/0125-valid-palindrome) | Easy | `string`, `two-pointers` | Aug 12, 2026 |
 | 133 | [Clone Graph](problems/0133-clone-graph) | Medium | `breadth-first-search`, `depth-first-search`, `graph`, `hash-table` | — |
 | 141 | [Linked List Cycle](problems/0141-linked-list-cycle) | Easy | `hash-table`, `linked-list`, `two-pointers` | — |
 | 167 | [Two Sum II - Input Array Is Sorted](problems/0167-two-sum-ii-input-array-is-sorted) | Medium | `array`, `binary-search`, `two-pointers` | Aug 7, 2026 |

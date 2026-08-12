@@ -56,41 +56,69 @@
 # s consists only of printable ASCII characters.
 #
 #
-#
+
 
 # @lc code=start
 class Solution:
 
-    # if your interviewer is not happy with you using the built in methods in python, you will have to use the ASCII values (which you can find online)
-    # https://www.asciitable.com/
-    def isPalindrome(self, s):
+    # SOLUTION 1
+    # normalize the whole string up front, then compare it to its reverse
+    def isPalindrome(self, s: str) -> bool:
+        # get rid of non-alphanumeric characters.
+        cleanedUpString = "".join([char for char in s if char.isalnum()]).lower()
 
-        # this solution is great if your interviewer doesn't have a problem with you using the .isalnum built in python method. that method gives a true if the character is a letter or number.
-        newStr = ""
-        for c in s:
-            if c.isalnum():
-                newStr += c.lower()
-        return newStr == newStr[::-1]
+        # compare strings
+        return cleanedUpString == cleanedUpString[::-1]
 
-        # another possible solution
-        # s = s.lower()
-        # s = ''.join(filter(str.isalnum, s))
-        # if len(s) == 0:
-        #     return True
-        # i = 0
-        # j = len(s)-1
-        # while j > 0:
-        #     if s[i] != s[j]:
-        #         return False
-        #     else:
-        #         i += 1
-        #         j -= 1
-        # return True
+    # SOLUTION 2
+    # lazy filtering: normalize at the point of comparison, O(1) space
+    def isPalindrome2(self, s: str) -> bool:
+        L = 0
+        R = len(s) - 1
 
-        # if your interviewer doesn't want you to use the build in method, this function helps you determine if the number is alpha numeric. it's the manual way of doing it.
-        # def alphaNum(c):
-        #     return (ord('A') <= ord(c) <= ord('Z') or
-        #             ord('a') <= ord(c) <= ord('z') or
-        #             ord('0') <= ord(c) <= ord('9'))
+        while L < R:
+            # walk each pointer onto a character that can actually participate.
+            # the L < R guard is what stops an all-punctuation string like
+            # ".,;'" from running a pointer off the end.
+            while L < R and not s[L].isalnum():
+                L += 1
+            while L < R and not s[R].isalnum():
+                R -= 1
 
-        # @lc code=end
+            # fold case only here, on the two characters that matter
+            if s[L].lower() != s[R].lower():
+                return False
+
+            L += 1
+            R -= 1
+
+        # never found a mismatch
+        return True
+
+# @lc code=end
+
+
+if __name__ == "__main__":
+    cases = [
+        ("A man, a plan, a canal: Panama", True),
+        ("race a car", False),
+        (" ", True),                 # empty after cleaning
+        ("", True),
+        (".,;'", True),              # punctuation only
+        ("a", True),
+        ("ab", False),
+        ("0P", False),               # '0' and 'P' are adjacent in ASCII
+        ("aA", True),                # case folding
+        ("12321", True),
+        ("1a2", False),
+        ("Was it a car or a cat I saw?", True),
+    ]
+    solution = Solution()
+    methods = [("pre-filter", solution.isPalindrome),
+               ("two-pointer", solution.isPalindrome2)]
+    for name, fn in methods:
+        print(f"--- {name} ---")
+        for s, expected in cases:
+            got = fn(s)
+            status = "PASS" if got == expected else "FAIL"
+            print(f"{status}  s={s!r:<34} expected={str(expected):<6} got={got}")
