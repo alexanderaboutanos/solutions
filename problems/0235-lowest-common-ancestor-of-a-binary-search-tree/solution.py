@@ -70,30 +70,20 @@
 class Solution:
 
     def lowestCommonAncestor(self, root, p, q):
-        # value of p and q
-        p_val = p.val
-        q_val = q.val
+        node = root  # declare this so you don't get confused
 
-        # start from root node of the tree
-        node = root
-
-        # traverse the tree. it'll never stop. this is just a way to get it to loop.
-        while node:
-
-            # get value of current node or parent node
-            parent_val = node.val
-
-            # if both p and q are greater than the parent, go right.
-            if p_val > parent_val and q_val > parent_val:
+        while node:  # infinite loop
+            if p.val > node.val and q.val > node.val:  ## both greater? move right
                 node = node.right
 
-            # if both p and q are less than the parent, go left.
-            elif p_val < parent_val and q_val < parent_val:
+            elif p.val < node.val and q.val < node.val:  ## both less? move left
                 node = node.left
 
-            else:
-                # found the split point!
+            else:  ## they have diverged! This is LCA
                 return node
+
+        return None
+
 
         # # my ugly first attempt to solve this. horrible time, but it works.
         # def lowestCommonAncestor(self, root, p, q):
