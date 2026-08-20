@@ -35,7 +35,7 @@ Total: **31** &nbsp;·&nbsp;
 | 133 | [Clone Graph](problems/0133-clone-graph) | Medium | `breadth-first-search`, `depth-first-search`, `graph`, `hash-table` | — |
 | 141 | [Linked List Cycle](problems/0141-linked-list-cycle) | Easy | `hash-table`, `linked-list`, `two-pointers` | — |
 | 167 | [Two Sum II - Input Array Is Sorted](problems/0167-two-sum-ii-input-array-is-sorted) | Medium | `array`, `binary-search`, `two-pointers` | Aug 7, 2026 |
-| 226 | [Invert Binary Tree](problems/0226-invert-binary-tree) | Easy | `binary-tree`, `breadth-first-search`, `depth-first-search`, `tree` | — |
+| 226 | [Invert Binary Tree](problems/0226-invert-binary-tree) | Easy | `binary-tree`, `breadth-first-search`, `depth-first-search`, `tree` | Aug 18, 2026 |
 | 232 | [Implement Queue using Stacks](problems/0232-implement-queue-using-stacks) | Easy | `design`, `queue`, `stack` | — |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](problems/0235-lowest-common-ancestor-of-a-binary-search-tree) | Easy | `binary-search-tree`, `binary-tree`, `depth-first-search`, `tree` | — |
 | 242 | [Valid Anagram](problems/0242-valid-anagram) | Easy | `hash-table`, `sorting`, `string` | — |
