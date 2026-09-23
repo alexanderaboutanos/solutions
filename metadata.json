@@ -142,7 +142,7 @@
     "id": 53,
     "slug": "maximum-subarray",
     "title": "Maximum Subarray",
-    "difficulty": "Easy",
+    "difficulty": "Medium",
     "tags": [
       "array",
       "divide-and-conquer",

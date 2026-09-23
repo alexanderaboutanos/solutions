@@ -1,6 +1,6 @@
 # 53. Maximum Subarray
 
-**Difficulty:** Easy  
+**Difficulty:** Medium  
 **Tags:** `array`, `divide-and-conquer`, `dynamic-programming`  
 **LeetCode:** [maximum-subarray](https://leetcode.com/problems/maximum-subarray/)
 
