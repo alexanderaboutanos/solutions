@@ -8,10 +8,10 @@
 
 Coding problems I've solved, tracked against the [NeetCode 150](https://neetcode.io/practice?tab=neetcode150) roadmap.
 
-**NeetCode 150:** 20 / 150 `█░░░░░░░░░` 13%
+**NeetCode 150:** 21 / 150 `█░░░░░░░░░` 14%
 
-Total solved: **31** &nbsp;·&nbsp;
-🟢 Easy: 23 &nbsp;·&nbsp;
+Total solved: **32** &nbsp;·&nbsp;
+🟢 Easy: 24 &nbsp;·&nbsp;
 🟡 Medium: 8 &nbsp;·&nbsp;
 🔴 Hard: 0 &nbsp;·&nbsp;
 Off-roadmap: 11
@@ -20,7 +20,7 @@ Off-roadmap: 11
 
 | Topic | Solved | Progress |
 |-------|-------:|----------|
-| [Arrays & Hashing](#arrays--hashing) | 2 / 9 | `██░░░░░░░░` |
+| [Arrays & Hashing](#arrays--hashing) | 3 / 9 | `███░░░░░░░` |
 | [Two Pointers](#two-pointers) | 3 / 5 | `██████░░░░` |
 | [Sliding Window](#sliding-window) | 1 / 6 | `██░░░░░░░░` |
 | [Stack](#stack) | 1 / 6 | `██░░░░░░░░` |
@@ -41,11 +41,11 @@ Off-roadmap: 11
 
 ## Arrays & Hashing
 
-2 / 9 solved
+3 / 9 solved
 
 | | # | Problem | Difficulty | Tags | Completed |
 |:-:|--:|---------|------------|------|-----------|
-| ☐ | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy | — | — |
+| ✅ | 217 | [Contains Duplicate](problems/0217-contains-duplicate) | 🟢 Easy | `array`, `hash-table`, `sorting` | Sep 23, 2026 |
 | ✅ | 242 | [Valid Anagram](problems/0242-valid-anagram) | 🟢 Easy | `hash-table`, `sorting`, `string` | — |
 | ✅ | 1 | [Two Sum](problems/0001-two-sum) | 🟢 Easy | `array`, `hash-table` | Aug 6, 2026 |
 | ☐ | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | — | — |
