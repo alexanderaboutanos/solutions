@@ -17,6 +17,7 @@ I follow NeetCode's build-on-each-other order and will ask before starting each 
 - **Hard rows wait.** This is a two-pass plan: every Easy and Medium on the roadmap first, then a second pass for the Hards. A topic counts as finished when its Easy and Medium rows are done, so skip past a Hard to the next topic rather than recommending it.
 - **Say why** in a sentence that names the prior problem the new one builds on (49 Group Anagrams reuses the anagram key from 242). Offer one alternative when a later topic's easy problems are unlocked by finished prerequisites.
 - **Flag** a jump past unfinished prerequisites, then defer to my choice.
+- **Check `SCHEDULE.md` first.** It assigns one roadmap problem per weekday. When I ask what to do, find today's row and report which problems are due. A skipped day does not shift the schedule: the dates are fixed, so if I am behind, the answer is every unfinished row up to and including today, oldest first, until I have caught up.
 
 ## Completing a problem
 
