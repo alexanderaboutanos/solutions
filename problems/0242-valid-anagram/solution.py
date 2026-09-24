@@ -43,38 +43,51 @@
 #
 # @lc code=start
 
-from collections import Counter
-
-
 class Solution:
 
-    # # this solution uses python collections. very fast, but cheating?
-    # def isAnagram(self, s: str, t: str) -> bool:
-    #     counter1 = Counter(s)
-    #     counter2 = Counter(t)
-    #     return counter1 == counter2
-
-    # blunt force into dictionary and out of dictionary
     def isAnagram(self, s: str, t: str) -> bool:
-        hashmap = {}
-        for char in s:
-            if char not in hashmap:
-                hashmap[char] = 1
+        # loop over 1st string, add to dictionary
+        sDict = {}
+        for letter in s:
+            if letter in sDict:
+                sDict[letter] += 1
             else:
-                hashmap[char] += 1
+                sDict[letter] = 1
 
-        for char in t:
-            if char in hashmap:
-                if hashmap[char] > 1:
-                    hashmap[char] -= 1
-                else:
-                    del hashmap[char]
+        # loop over 2nd string, add to dictionary
+        tDict = {}
+        for letter in t:
+            if letter in tDict:
+                tDict[letter] += 1
             else:
-                return False
+                tDict[letter] = 1
 
-        if hashmap == {}:
-            return True
+        # if dictionaries are the same, true, else false
+        return sDict == tDict
 
-        return False
+
+    # # first attempt, years ago: one map, count up on s and down on t,
+    # # deleting keys that hit zero so the map ends empty on a match.
+    # def isAnagram(self, s: str, t: str) -> bool:
+    #     hashmap = {}
+    #     for char in s:
+    #         if char not in hashmap:
+    #             hashmap[char] = 1
+    #         else:
+    #             hashmap[char] += 1
+    #
+    #     for char in t:
+    #         if char in hashmap:
+    #             if hashmap[char] > 1:
+    #                 hashmap[char] -= 1
+    #             else:
+    #                 del hashmap[char]
+    #         else:
+    #             return False
+    #
+    #     if hashmap == {}:
+    #         return True
+    #
+    #     return False
 
 # @lc code=end

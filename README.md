@@ -46,7 +46,7 @@ Off-roadmap: 11
 | | # | Problem | Difficulty | Tags | Completed |
 |:-:|--:|---------|------------|------|-----------|
 | ✅ | 217 | [Contains Duplicate](problems/0217-contains-duplicate) | 🟢 Easy | `array`, `hash-table`, `sorting` | Sep 23, 2026 |
-| ✅ | 242 | [Valid Anagram](problems/0242-valid-anagram) | 🟢 Easy | `hash-table`, `sorting`, `string` | — |
+| ✅ | 242 | [Valid Anagram](problems/0242-valid-anagram) | 🟢 Easy | `hash-table`, `sorting`, `string` | Sep 24, 2026 |
 | ✅ | 1 | [Two Sum](problems/0001-two-sum) | 🟢 Easy | `array`, `hash-table` | Aug 6, 2026 |
 | ☐ | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | 🟡 Medium | — | — |
 | ☐ | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | 🟡 Medium | — | — |
