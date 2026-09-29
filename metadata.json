@@ -139,6 +139,22 @@
     "runtimeMs": null
   },
   {
+    "id": 49,
+    "slug": "group-anagrams",
+    "title": "Group Anagrams",
+    "difficulty": "Medium",
+    "tags": [
+      "array",
+      "hash-table",
+      "sorting",
+      "string"
+    ],
+    "dir": "problems/0049-group-anagrams",
+    "url": "https://leetcode.com/problems/group-anagrams/",
+    "completedAt": "2026-09-29T12:26:46-04:00",
+    "runtimeMs": null
+  },
+  {
     "id": 53,
     "slug": "maximum-subarray",
     "title": "Maximum Subarray",
