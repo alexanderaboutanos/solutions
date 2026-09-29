@@ -407,6 +407,26 @@
     "runtimeMs": null
   },
   {
+    "id": 347,
+    "slug": "top-k-frequent-elements",
+    "title": "Top K Frequent Elements",
+    "difficulty": "Medium",
+    "tags": [
+      "array",
+      "hash-table",
+      "divide-and-conquer",
+      "sorting",
+      "heap-priority-queue",
+      "bucket-sort",
+      "counting",
+      "quickselect"
+    ],
+    "dir": "problems/0347-top-k-frequent-elements",
+    "url": "https://leetcode.com/problems/top-k-frequent-elements/",
+    "completedAt": "2026-09-29T13:21:50-04:00",
+    "runtimeMs": null
+  },
+  {
     "id": 383,
     "slug": "ransom-note",
     "title": "Ransom Note",
