@@ -8,11 +8,11 @@
 
 Coding problems I've solved, tracked against the [NeetCode 150](https://neetcode.io/practice?tab=neetcode150) roadmap.
 
-**NeetCode 150:** 23 / 150 `██░░░░░░░░` 15%
+**NeetCode 150:** 24 / 150 `██░░░░░░░░` 16%
 
-Total solved: **34** &nbsp;·&nbsp;
+Total solved: **35** &nbsp;·&nbsp;
 🟢 Easy: 24 &nbsp;·&nbsp;
-🟡 Medium: 10 &nbsp;·&nbsp;
+🟡 Medium: 11 &nbsp;·&nbsp;
 🔴 Hard: 0 &nbsp;·&nbsp;
 Off-roadmap: 11
 
@@ -20,7 +20,7 @@ Off-roadmap: 11
 
 | Topic | Solved | Progress |
 |-------|-------:|----------|
-| [Arrays & Hashing](#arrays--hashing) | 5 / 9 | `██████░░░░` |
+| [Arrays & Hashing](#arrays--hashing) | 6 / 9 | `███████░░░` |
 | [Two Pointers](#two-pointers) | 3 / 5 | `██████░░░░` |
 | [Sliding Window](#sliding-window) | 1 / 6 | `██░░░░░░░░` |
 | [Stack](#stack) | 1 / 6 | `██░░░░░░░░` |
@@ -41,7 +41,7 @@ Off-roadmap: 11
 
 ## Arrays & Hashing
 
-5 / 9 solved
+6 / 9 solved
 
 | | # | Problem | Difficulty | Tags | Completed |
 |:-:|--:|---------|------------|------|-----------|
@@ -50,7 +50,7 @@ Off-roadmap: 11
 | ✅ | 1 | [Two Sum](problems/0001-two-sum) | 🟢 Easy | `array`, `hash-table` | Aug 6, 2026 |
 | ✅ | 49 | [Group Anagrams](problems/0049-group-anagrams) | 🟡 Medium | `array`, `hash-table`, `sorting`, `string` | Sep 29, 2026 |
 | ✅ | 347 | [Top K Frequent Elements](problems/0347-top-k-frequent-elements) | 🟡 Medium | `array`, `hash-table`, `divide-and-conquer`, `sorting`, `heap-priority-queue`, `bucket-sort`, `counting`, `quickselect` | Sep 29, 2026 |
-| ☐ | 271 | [Encode and Decode Strings](https://neetcode.io/problems/string-encode-and-decode?list=neetcode150) 🔒 | 🟡 Medium | — | — |
+| ✅ | 271 | [Encode and Decode Strings](problems/0271-encode-and-decode-strings) | 🟡 Medium | `array`, `string`, `design` | Sep 29, 2026 |
 | ☐ | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | — | — |
 | ☐ | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | 🟡 Medium | — | — |
 | ☐ | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | — | — |

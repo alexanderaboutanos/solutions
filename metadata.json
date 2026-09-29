@@ -393,6 +393,21 @@
     "runtimeMs": null
   },
   {
+    "id": 271,
+    "slug": "encode-and-decode-strings",
+    "title": "Encode and Decode Strings",
+    "difficulty": "Medium",
+    "tags": [
+      "array",
+      "string",
+      "design"
+    ],
+    "dir": "problems/0271-encode-and-decode-strings",
+    "url": "https://leetcode.com/problems/encode-and-decode-strings/",
+    "completedAt": "2026-09-29T15:49:04-04:00",
+    "runtimeMs": null
+  },
+  {
     "id": 278,
     "slug": "first-bad-version",
     "title": "First Bad Version",
