@@ -11,8 +11,8 @@ Generated 2026-09-24 from `metadata.json`. Dates are fixed. A skipped day means 
 | 2026-09-25 | Fri | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Arrays & Hashing | 🟡 Medium |  |
 | 2026-09-28 | Mon | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Arrays & Hashing | 🟡 Medium |  |
 | 2026-09-29 | Tue | 271 | [Encode and Decode Strings](https://leetcode.com/problems/encode-and-decode-strings/) | Arrays & Hashing | 🟡 Medium |  |
-| 2026-09-30 | Wed | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Arrays & Hashing | 🟡 Medium |  |
 | 2026-10-01 | Thu | 36 | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Arrays & Hashing | 🟡 Medium |  |
+| 2026-10-02 | Fri | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Arrays & Hashing | 🟡 Medium |  |
 | 2026-10-02 | Fri | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Arrays & Hashing | 🟡 Medium |  |
 | 2026-10-05 | Mon | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | Two Pointers | 🟡 Medium |  |
 | 2026-10-06 | Tue | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Sliding Window | 🟡 Medium |  |
