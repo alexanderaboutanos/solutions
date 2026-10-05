@@ -8,11 +8,11 @@
 
 Coding problems I've solved, tracked against the [NeetCode 150](https://neetcode.io/practice?tab=neetcode150) roadmap.
 
-**NeetCode 150:** 25 / 150 `██░░░░░░░░` 16%
+**NeetCode 150:** 26 / 150 `██░░░░░░░░` 17%
 
-Total solved: **36** &nbsp;·&nbsp;
+Total solved: **37** &nbsp;·&nbsp;
 🟢 Easy: 24 &nbsp;·&nbsp;
-🟡 Medium: 12 &nbsp;·&nbsp;
+🟡 Medium: 13 &nbsp;·&nbsp;
 🔴 Hard: 0 &nbsp;·&nbsp;
 Off-roadmap: 11
 
@@ -20,7 +20,7 @@ Off-roadmap: 11
 
 | Topic | Solved | Progress |
 |-------|-------:|----------|
-| [Arrays & Hashing](#arrays--hashing) | 7 / 9 | `████████░░` |
+| [Arrays & Hashing](#arrays--hashing) | 8 / 9 | `█████████░` |
 | [Two Pointers](#two-pointers) | 3 / 5 | `██████░░░░` |
 | [Sliding Window](#sliding-window) | 1 / 6 | `██░░░░░░░░` |
 | [Stack](#stack) | 1 / 6 | `██░░░░░░░░` |
@@ -41,7 +41,7 @@ Off-roadmap: 11
 
 ## Arrays & Hashing
 
-7 / 9 solved
+8 / 9 solved
 
 | | # | Problem | Difficulty | Tags | Completed |
 |:-:|--:|---------|------------|------|-----------|
@@ -51,7 +51,7 @@ Off-roadmap: 11
 | ✅ | 49 | [Group Anagrams](problems/0049-group-anagrams) | 🟡 Medium | `array`, `hash-table`, `sorting`, `string` | Sep 29, 2026 |
 | ✅ | 347 | [Top K Frequent Elements](problems/0347-top-k-frequent-elements) | 🟡 Medium | `array`, `hash-table`, `divide-and-conquer`, `sorting`, `heap-priority-queue`, `bucket-sort`, `counting`, `quickselect` | Sep 29, 2026 |
 | ✅ | 271 | [Encode and Decode Strings](problems/0271-encode-and-decode-strings) | 🟡 Medium | `array`, `string`, `design` | Sep 29, 2026 |
-| ☐ | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | — | — |
+| ✅ | 238 | [Product of Array Except Self](problems/0238-product-of-array-except-self) | 🟡 Medium | `array`, `prefix-sum` | Oct 5, 2026 |
 | ✅ | 36 | [Valid Sudoku](problems/0036-valid-sudoku) | 🟡 Medium | `array`, `hash-table`, `matrix` | Oct 1, 2026 |
 | ☐ | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | — | — |
 

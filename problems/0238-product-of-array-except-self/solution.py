@@ -20,8 +20,7 @@
 # Follow-up: solve it in O(1) extra space (the output array doesn't count).
 #
 
-# WIP (2026-09-30): stopped here after an hour. Try again from a blank file
-# on Friday before reading this. Key idea: everything except nums[i] is
+# Key idea: everything except nums[i] is
 # (product of everything left of i) * (product of everything right of i).
 #
 #   nums  = [ 1,  2, 3, 4]
@@ -34,21 +33,37 @@ from typing import List
 
 class Solution:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        n = len(nums)
-
-        left = [1] * n
+        left = []
         everythingToTheLeft = 1
-        for idx, num in enumerate(nums):
-            left[idx] = everythingToTheLeft
-            everythingToTheLeft *= num
+        for number in nums:
+            left.append(everythingToTheLeft)
+            everythingToTheLeft *= number
 
-        right = [1] * n
+        # Built back-to-front, so it comes out reversed: [1, 4, 12, 24].
+        # One reverse() at the end flips it into place.
+        right = []
         everythingToTheRight = 1
-        for idx in range(n - 1, -1, -1):
-            right[idx] = everythingToTheRight
-            everythingToTheRight *= nums[idx]
+        for number in reversed(nums):
+            right.append(everythingToTheRight)
+            everythingToTheRight *= number
+        right.reverse()
 
-        return [left[i] * right[i] for i in range(n)]
+        output = []
+        for index in range(len(nums)):
+            output.append(left[index] * right[index])
+
+        return output
+
+
+# First attempt (2026-10-05). Same algorithm, but it built `right` with
+# insert(0, ...) so the list would already be in order. Each insert shifts
+# everything after it, so the second loop is O(n^2): too slow at n = 10^5.
+#
+#         right = []
+#         everythingToTheRight = 1
+#         for index, number in enumerate(reversed(nums)):
+#             right.insert(0, everythingToTheRight)
+#             everythingToTheRight *= number
 
 
 # Follow-up, O(1) extra space: drop `right`, write the left pass straight into

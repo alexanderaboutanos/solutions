@@ -393,6 +393,20 @@
     "runtimeMs": null
   },
   {
+    "id": 238,
+    "slug": "product-of-array-except-self",
+    "title": "Product of Array Except Self",
+    "difficulty": "Medium",
+    "tags": [
+      "array",
+      "prefix-sum"
+    ],
+    "dir": "problems/0238-product-of-array-except-self",
+    "url": "https://leetcode.com/problems/product-of-array-except-self/",
+    "completedAt": "2026-10-05T16:38:04-04:00",
+    "runtimeMs": null
+  },
+  {
     "id": 242,
     "slug": "valid-anagram",
     "title": "Valid Anagram",
