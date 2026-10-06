@@ -8,11 +8,11 @@
 
 Coding problems I've solved, tracked against the [NeetCode 150](https://neetcode.io/practice?tab=neetcode150) roadmap.
 
-**NeetCode 150:** 27 / 150 `██░░░░░░░░` 18%
+**NeetCode 150:** 28 / 150 `██░░░░░░░░` 18%
 
-Total solved: **38** &nbsp;·&nbsp;
+Total solved: **39** &nbsp;·&nbsp;
 🟢 Easy: 24 &nbsp;·&nbsp;
-🟡 Medium: 14 &nbsp;·&nbsp;
+🟡 Medium: 15 &nbsp;·&nbsp;
 🔴 Hard: 0 &nbsp;·&nbsp;
 Off-roadmap: 11
 
@@ -21,7 +21,7 @@ Off-roadmap: 11
 | Topic | Solved | Progress |
 |-------|-------:|----------|
 | [Arrays & Hashing](#arrays--hashing) | 9 / 9 | `██████████` |
-| [Two Pointers](#two-pointers) | 3 / 5 | `██████░░░░` |
+| [Two Pointers](#two-pointers) | 4 / 5 | `████████░░` |
 | [Sliding Window](#sliding-window) | 1 / 6 | `██░░░░░░░░` |
 | [Stack](#stack) | 1 / 6 | `██░░░░░░░░` |
 | [Binary Search](#binary-search) | 1 / 7 | `█░░░░░░░░░` |
@@ -57,14 +57,14 @@ Off-roadmap: 11
 
 ## Two Pointers
 
-3 / 5 solved
+4 / 5 solved
 
 | | # | Problem | Difficulty | Tags | Completed |
 |:-:|--:|---------|------------|------|-----------|
 | ✅ | 125 | [Valid Palindrome](problems/0125-valid-palindrome) | 🟢 Easy | `string`, `two-pointers` | Aug 12, 2026 |
 | ✅ | 167 | [Two Sum II - Input Array Is Sorted](problems/0167-two-sum-ii-input-array-is-sorted) | 🟡 Medium | `array`, `binary-search`, `two-pointers` | Aug 7, 2026 |
 | ✅ | 15 | [3Sum](problems/0015-3sum) | 🟡 Medium | `array`, `sorting`, `two-pointers` | Aug 10, 2026 |
-| ☐ | 11 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium | — | — |
+| ✅ | 11 | [Container With Most Water](problems/0011-container-with-most-water) | 🟡 Medium | `array`, `two-pointers`, `greedy` | Oct 6, 2026 |
 | ☐ | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | 🔴 Hard | — | — |
 
 ## Sliding Window
