@@ -8,11 +8,11 @@
 
 Coding problems I've solved, tracked against the [NeetCode 150](https://neetcode.io/practice?tab=neetcode150) roadmap.
 
-**NeetCode 150:** 29 / 150 `██░░░░░░░░` 19%
+**NeetCode 150:** 30 / 150 `██░░░░░░░░` 20%
 
-Total solved: **40** &nbsp;·&nbsp;
+Total solved: **41** &nbsp;·&nbsp;
 🟢 Easy: 24 &nbsp;·&nbsp;
-🟡 Medium: 16 &nbsp;·&nbsp;
+🟡 Medium: 17 &nbsp;·&nbsp;
 🔴 Hard: 0 &nbsp;·&nbsp;
 Off-roadmap: 11
 
@@ -22,7 +22,7 @@ Off-roadmap: 11
 |-------|-------:|----------|
 | [Arrays & Hashing](#arrays--hashing) | 9 / 9 | `██████████` |
 | [Two Pointers](#two-pointers) | 4 / 5 | `████████░░` |
-| [Sliding Window](#sliding-window) | 2 / 6 | `███░░░░░░░` |
+| [Sliding Window](#sliding-window) | 3 / 6 | `█████░░░░░` |
 | [Stack](#stack) | 1 / 6 | `██░░░░░░░░` |
 | [Binary Search](#binary-search) | 1 / 7 | `█░░░░░░░░░` |
 | [Linked List](#linked-list) | 2 / 11 | `██░░░░░░░░` |
@@ -69,13 +69,13 @@ Off-roadmap: 11
 
 ## Sliding Window
 
-2 / 6 solved
+3 / 6 solved
 
 | | # | Problem | Difficulty | Tags | Completed |
 |:-:|--:|---------|------------|------|-----------|
 | ✅ | 121 | [Best Time to Buy and Sell Stock](problems/0121-best-time-to-buy-and-sell-stock) | 🟢 Easy | `array`, `dynamic-programming` | Aug 4, 2026 |
 | ✅ | 3 | [Longest Substring Without Repeating Characters](problems/0003-longest-substring-without-repeating-characters) | 🟡 Medium | `hash-table`, `string`, `sliding-window` | Oct 7, 2026 |
-| ☐ | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | 🟡 Medium | — | — |
+| ✅ | 424 | [Longest Repeating Character Replacement](problems/0424-longest-repeating-character-replacement) | 🟡 Medium | `hash-table`, `string`, `sliding-window` | Oct 10, 2026 |
 | ☐ | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | 🟡 Medium | — | — |
 | ☐ | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | 🔴 Hard | — | — |
 | ☐ | 239 | [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/) | 🔴 Hard | — | — |
