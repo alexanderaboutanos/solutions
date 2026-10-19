@@ -2,7 +2,7 @@
 
 LeetCode solutions in Python, tracked against the NeetCode 150 roadmap. The generated `README.md` is the tracker; `scripts/generate.py` documents the mechanics.
 
-Planning lives in `~/projects/hq/job-search/leetcode-plan.md`: the daily schedule and how to pick the next problem. Read it when I ask what to solve next.
+Planning lives in `~/projects/hq/job-search/problems/leetcode-plan.md`: the daily schedule and how to pick the next problem. Read it when I ask what to solve next.
 
 ## Two kinds of checkmark
 
