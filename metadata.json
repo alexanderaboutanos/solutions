@@ -562,6 +562,22 @@
     "runtimeMs": null
   },
   {
+    "id": 567,
+    "slug": "permutation-in-string",
+    "title": "Permutation in String",
+    "difficulty": "Medium",
+    "tags": [
+      "hash-table",
+      "two-pointers",
+      "string",
+      "sliding-window"
+    ],
+    "dir": "problems/0567-permutation-in-string",
+    "url": "https://leetcode.com/problems/permutation-in-string/",
+    "completedAt": "2026-10-20T11:12:48-04:00",
+    "runtimeMs": null
+  },
+  {
     "id": 704,
     "slug": "binary-search",
     "title": "Binary Search",
