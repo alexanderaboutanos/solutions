@@ -51,34 +51,50 @@
 
 # @lc code=start
 class Solution:
-    def isValid(self, s):
-
-        # create dictionary of parentheses ends
-        end_parens = {')': '(', '}': '{', ']': '['}
-
-        # create stack.
-        # this stack will only contain open parens.
+    def isValid(self, s: str) -> bool:
+        pairs = {")": "(", "]": "[", "}": "{"}
         stack = []
 
-        # iterate through each 'p' (parentheses) in string.
-        for p in s:
-
-            # if the next parens is not an end parens...
-            if p not in end_parens:
-                # add it to the top of the stack.
-                stack.append(p)
-
-            # if the next parens is an end parens...
-            else:
-                # take the parens off the top of the stack.
-                # if there is no stack, just make curr a random string
-                curr = stack.pop() if stack else 'N/A'
-                # make sure that parens matches the current end parens
-                if curr != end_parens[p]:
+        for char in s:
+            if char in pairs:                        # closing bracket
+                if not stack or stack[-1] != pairs[char]:
                     return False
+                stack.pop()
+            else:                                    # opening bracket
+                stack.append(char)
 
-        # if the stack still has values remaining in it, return false.
-        # if the stack is empty, then you have valid parens!
         return not stack
+
+
+        # # my first attempt, from years ago. pops before checking, with a sentinel when the stack is empty.
+        # def isValid(self, s):
+
+        #     # create dictionary of parentheses ends
+        #     end_parens = {')': '(', '}': '{', ']': '['}
+
+        #     # create stack.
+        #     # this stack will only contain open parens.
+        #     stack = []
+
+        #     # iterate through each 'p' (parentheses) in string.
+        #     for p in s:
+
+        #         # if the next parens is not an end parens...
+        #         if p not in end_parens:
+        #             # add it to the top of the stack.
+        #             stack.append(p)
+
+        #         # if the next parens is an end parens...
+        #         else:
+        #             # take the parens off the top of the stack.
+        #             # if there is no stack, just make curr a random string
+        #             curr = stack.pop() if stack else 'N/A'
+        #             # make sure that parens matches the current end parens
+        #             if curr != end_parens[p]:
+        #                 return False
+
+        #     # if the stack still has values remaining in it, return false.
+        #     # if the stack is empty, then you have valid parens!
+        #     return not stack
 
 # @lc code=end
