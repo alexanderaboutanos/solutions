@@ -2,13 +2,26 @@
 
 LeetCode solutions in Python, tracked against the NeetCode 150 roadmap. The generated `README.md` is the tracker; `scripts/generate.py` documents the mechanics.
 
-Planning lives in `~/projects/hq/job-search/problems/leetcode-plan.md`: the daily schedule and how to pick the next problem. Read it when I ask what to solve next.
+## Paused
+
+Paused 2026-11-19. I stopped daily LeetCode and pick it back up only after I take a LeetCode-style interview and fail it. Until then, nothing here is due, there is no schedule, and HQ doesn't track it. When I resume, start where I left off: the next pending problem is **155 Min Stack** (Stack).
 
 ## Two kinds of checkmark
 
 A ✅ row in the README with a **date** is a problem solved recently, with a finished write-up. A ✅ row with **no date** (`completedAt: null` in `metadata.json`) is a problem I solved years ago and no longer remember. I am redoing every one of those.
 
-Treat undated rows as **pending**: "completing" one means a fresh solve, not a backfill. The old `solution.py` stays as the first attempt (kept commented out at the bottom, as in `0235`) so the write-up can contrast it with the new one.
+Treat undated rows as **pending**: they count as unsolved when recommending what comes next, and "completing" one means a fresh solve, not a backfill. The old `solution.py` stays as the first attempt (kept commented out at the bottom, as in `0235`) so the write-up can contrast it with the new one.
+
+## Recommending the next problem
+
+I follow NeetCode's build-on-each-other order and will ask before starting each problem whether it makes sense. Answer from the roadmap, not from memory:
+
+- **Order** is `data/neetcode150.json`: topics in prerequisite order (Arrays & Hashing before Two Pointers and Stack, those before Binary Search, Sliding Window, Linked List, and so on down to Graphs and DP), rows within a topic from easy to hard.
+- **Default pick** is the next pending Easy or Medium row, top-down, in the earliest topic that isn't finished. Undated ✅ rows are pending.
+- **Hard rows wait.** This is a two-pass plan: every Easy and Medium on the roadmap first, then a second pass for the Hards. A topic counts as finished when its Easy and Medium rows are done, so skip past a Hard to the next topic rather than recommending it.
+- **Say why** in a sentence that names the prior problem the new one builds on (49 Group Anagrams reuses the anagram key from 242). Offer one alternative when a later topic's easy problems are unlocked by finished prerequisites.
+- **Flag** a jump past unfinished prerequisites, then defer to my choice.
+- **No dated schedule.** Pace is one problem a weekday once I resume, but there are no fixed dates to fall behind on.
 
 ## Completing a problem
 
